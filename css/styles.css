@@ -13,10 +13,10 @@ body {
     color: var(--primery-text-color);
 }
 h2 {
-    font-style: normal;
+    color: #212121;
     font-weight: 700;
     font-size: 36px;
-    line-height: 2.62;
+    line-height: 1.16;
 
 }
 /* header */
@@ -70,5 +70,37 @@ h2 {
     letter-spacing: 0.5px;
     text-transform: uppercase;
 }
+.pecul p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.5px;
+}
 
-
+/* command */
+.command p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    letter-spacing: 0.5px;
+}
+.command-name {
+    color: #212121;
+}
+/* footer */
+footer {
+    background-color: #2F303A;
+}
+.logo-studiof {
+    color: #fff;
+}
+.adress {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.5px;
+}
+.adress-contact {
+    color: rgba(255, 255, 255, 0.6);
+}
