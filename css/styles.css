@@ -91,6 +91,7 @@ ul {
     border-color: transparent;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
+    cursor: pointer;
 
 }
 /* peculiarities */
@@ -154,7 +155,6 @@ footer {
     font-style: normal;
     line-height: 1.71;
     letter-spacing: 0.5px;
-    
 }
 .foter-adress {
     color: #fff;
@@ -186,6 +186,7 @@ color: #000;
 background-color: var(--secondary-beckgrouncol-port);
 border-color: transparent;
 border-radius: 4px;
+cursor: pointer;
 
 }
 .main-btn:focus,
