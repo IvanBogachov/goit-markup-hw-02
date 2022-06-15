@@ -57,8 +57,8 @@ ul {
     color: var(--primery-text-color);
 }
 .current,
-.nav-li:focus,
-.nav-li:hover,
+.main-nav-li:focus,
+.main-nav-li:hover,
 .contact-li:hover,
 .contact-li:focus {
     color: var(--highlight-color);
