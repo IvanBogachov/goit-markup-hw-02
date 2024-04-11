@@ -1,4 +1,4 @@
-:root {
+/* :root {
     --iris: #4d5ae5;
     --ocean: #404bbf;
     --navy-blue: #2e2f42;
@@ -15,13 +15,14 @@
 :root {
     --font-family: "Roboto", sans-serif;
     --second-family: "Raleway", sans-serif;
-}
+} */
 body {
-    font-family: var(--font-family);
-    color: var(--navy-blue);
+    font-family: "Roboto", sans-serif;
+    color: #2e2f42;
     font-size: 18px;
-    background-color: color: var(--white);
+    background-color: #fff;
     line-height: 1.5;
+    text-decoration: none;
 }
 
 ul {
@@ -29,16 +30,16 @@ ul {
 }
 /* header */
 .logo_accent {
-    color: var(--iris);
+    color: #4d5ae5;
 }
 .logo_link {
-    font-family: var(--second-family);
+    font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 1.16;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--navy-blue);
+    color: #2e2f42;
     text-decoration: none;
 }
 /* .logo_link:hover,
@@ -47,61 +48,62 @@ ul {
     letter-spacing: 0.03em;
 } */
 .nav_link {
-    font-family: var(--font-family);
+    /* font-family: var(--font-family); */
     font-weight: 500;
     font-size: 16px;
-    color: var(--navy-blue);
+    /* color: #2e2f42; */
     text-decoration: none;
 }
 .nav_link:hover,
 .nav_link:focus {
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--ocean);
+    color: #404bbf;
 }
 .adres_link {
-    font-family: var(--font-family);
+    /* font-family: var(--font-family); */
     font-weight: 400;
     font-size: 16px;
-    color: var(--slate);
+    color: #434455;
     text-decoration: none;
 }
 .adres_link:hover,
 .adres_link:focus {
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--ocean);
+    color: #404bbf;
 }
 
 
 /* hero */
 .hero {
-    background: var(--navy-blue);
+    background: #2e2f42;
 }
 .hero-title {
-    font-family: var(--font-family);
-        font-weight: 700;
-        font-size: 56px;
-        line-height: 1.071;
-        letter-spacing: 0.02em;
-        text-align: center;
-        color: var(--white);
+    /* font-family: var(--font-family); */
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.071;
+    letter-spacing: 0.02em;
+    /* text-align: center; */
+    color: #fff;
 }
-.hero_but {font-family: var(--font-family);
+.hero_but {
+    /* font-family: var(--font-family); */
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    color: var(--white);
+    color: #fff;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-    background: var(--iris);
+    background: #4d5ae5;
     cursor: pointer;
     border-color: transparent;
 }
 .hero_but:hover,
 .hero_but:focus {
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-    background: var(--ocean);
+    background: #404bbf;
 }
 
 /* benef */
@@ -109,90 +111,90 @@ ul {
     display: none;
 }
 .benef_item h3 {
-    font-family: var(--font-family);
+    /* font-family: var(--font-family); */
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: var(--navy-blue);
+    /* color: var(--navy-blue); */
 }
 .benef_item p {
-    font-family: var(--font-family);
+    /* font-family: var(--font-family); */
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--slate);
+    color: #434455;
 }
 /* team */
 .team {
-    background: var(--cloud);
+    background: #f4f4fd;
 }
 .team-title {
-    font-family: var(--font-family);
+    /* font-family: var(--font-family); */
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11111;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     /* text-align: center; */
-    color: var(--navy-blue);
+    /* color: var(--navy-blue); */
 }
 .team_item h3 {
-    font-family: var(--font-family);
+    /* font-family: var(--font-family); */
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     /* text-align: center; */
-    color: var(--navy-blue);
+    /* color: var(--navy-blue); */
 }
 .team_item p {
-    font-family: var(--font-family);
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        /* text-align: center; */
-        color: var(--slate);
-}
-/* portf */
-.portf_title {
-    font-family: var(--font-family);
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.11111;
-    letter-spacing: 0.02em;
-    /* text-align: center; */
-    color: var(--navy-blue);
-}
-.portf_item h3 {
-    font-family: var(--font-family);
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: var(--navy-blue);
-}
-.portf_item p {
-    font-family: var(--font-family);
+    /* font-family: var(--font-family); */
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--slate);
+    /* text-align: center; */
+    color: #434455;
+}
+/* portf */
+.portf_title {
+    /* font-family: var(--font-family); */
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    /* text-align: center; */
+    /* color: var(--navy-blue); */
+}
+.portf_item h3 {
+    /* font-family: var(--font-family); */
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    /* color: var(--navy-blue); */
+}
+.portf_item p {
+    /* font-family: var(--font-family); */
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
 }
 /* footer */
 .foot {
-    background: var(--navy-blue);
+    background: #2e2f42;
 }
 .logof_link {
-    font-family: var(--second-family);
+    font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 1.16;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--cloud);
+    color: #f4f4fd;
     text-decoration: none;
 }
 /* .logof_link:hover,
@@ -202,10 +204,10 @@ ul {
 } */
 
 .foot p {
-    font-family: var(--font-family);
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        color: var(--cloud);
+    /* font-family: var(--font-family); */
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #f4f4fd;
 }
