@@ -10,27 +10,6 @@ body {
 ul {
     list-style-type: none;
 }
-/* h2 {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.11;
-    letter-spacing: 0.02em;
-    text-align: center;
-    text-transform: capitalize;
-    color: #2e2f42;
-}
-h3 {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-}
-p {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-} */
 /* header */
 .logo_accent {
     color: #2e2f42;
@@ -48,14 +27,13 @@ p {
 .nav_link {
     font-weight: 500;
     font-size: 16px;
-    letter-spacing: 0.03em;
+    letter-spacing: 0.02em;
+    line-height: 1.5;
     text-decoration: none;
     color: #2e2f42;
 }
 .nav_link:hover,
 .nav_link:focus {
-    line-height: 1.5;
-    letter-spacing: 0.02em;
     color: #404bbf;
 }
 .nav_item {
@@ -68,14 +46,14 @@ p {
 .adres_link {
     font-weight: 400;
     font-size: 16px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
     text-decoration: none;
 }
 .adres_link:hover,
 .adres_link:focus {
-    line-height: 1.5;
-    letter-spacing: 0.02em;
+    
     color: #404bbf;
 }
 
@@ -97,14 +75,12 @@ p {
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #fff;
-    /* box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15); */
     background: #4d5ae5;
     cursor: pointer;
     border-color: transparent;
 }
 .hero_but:hover,
 .hero_but:focus {
-    /* box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15); */
     background: #404bbf;
 }
 
@@ -114,19 +90,17 @@ p {
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
-    /* text-align: center; */
     text-transform: capitalize;
     color: #2e2f42;
-    /* display: none; */
 }
-.benef_item h3 {
+.item_title {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
-.benef_item p {
+.item_p {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -148,7 +122,7 @@ p {
     text-transform: capitalize;
     color: #2e2f42;
 }
-.team_item h3 {
+/* .team_item h3 {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -161,7 +135,7 @@ p {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-}
+} */
 
 /* portf */
 .portf_title {
@@ -173,7 +147,7 @@ p {
     text-transform: capitalize;
     color: #2e2f42;
 }
-.portf_item h3 {
+/* .portf_item h3 {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -186,7 +160,7 @@ p {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-}
+} */
 
 /* footer */
 .foot {
@@ -206,7 +180,7 @@ p {
 .logof_foot {
     color: #f4f4fd;
 }
-.foot p {
+.foot_p {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
