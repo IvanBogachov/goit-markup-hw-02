@@ -40,7 +40,7 @@ p {
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
-    letter-spacing: 0.02em;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
     text-decoration: none;
@@ -55,6 +55,10 @@ p {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #404bbf;
+}
+.nav_item {
+    letter-spacing: 0.02em;
+    color: #2e2f42;
 }
 .adres {
     font-style: normal;
@@ -97,7 +101,7 @@ p {
 }
 .hero_but:hover,
 .hero_but:focus {
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    /* box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15); */
     background: #404bbf;
 }
 
@@ -127,6 +131,8 @@ p {
 /* team */
 .team {
     background: #f4f4fd;
+}
+.team_item{
     background-color: #FFFFF;
 }
 .team-title {
@@ -176,20 +182,20 @@ p {
 
 /* footer */
 .foot {
-    background: #2e2f42;
+    background-color: #2e2f42;
     color: #f4f4fd;
 }
-.foot .logof_link {
+.logof_link {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
-    letter-spacing: 0.02em;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
     text-decoration: none;
 }
-.logo_foot {
+.logof_foot {
     color: #f4f4fd;
 }
 .foot p {
