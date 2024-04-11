@@ -5,11 +5,12 @@ body {
     background-color: #fff;
     line-height: 1.5;
     text-decoration: none;
+    color: #434455;
 }
 ul {
     list-style-type: none;
 }
-h3 {
+/* h3 {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -20,20 +21,19 @@ p {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
-}
+} */
 /* header */
 .logo_accent {
-    color: #4d5ae5;
+    color: #2e2f42;
 }
 .logo_link {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.16;
-    letter-spacing: 0.03em;
+    line-height: 1.17;
+    letter-spacing: 0.02em;
     text-transform: uppercase;
-    color: #2e2f42;
+    color: #4d5ae5;
     text-decoration: none;
 }
 .nav_link {
@@ -46,6 +46,9 @@ p {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #404bbf;
+}
+.adres {
+    font-style: normal;
 }
 .adres_link {
     font-weight: 400;
@@ -60,7 +63,6 @@ p {
     color: #404bbf;
 }
 
-
 /* hero */
 .hero {
     background: #2e2f42;
@@ -68,9 +70,9 @@ p {
 .hero-title {
     font-weight: 700;
     font-size: 56px;
-    line-height: 1.071;
+    line-height: 1.07;
     letter-spacing: 0.02em;
-    /* text-align: center; */
+    text-align: center;
     color: #fff;
 }
 .hero_but {
@@ -79,7 +81,7 @@ p {
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #fff;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    /* box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15); */
     background: #4d5ae5;
     cursor: pointer;
     border-color: transparent;
@@ -94,8 +96,18 @@ p {
 .benef_title {
     display: none;
 }
-
-
+.benef_item h3 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+.benef_item p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
 /* team */
 .team {
     background: #f4f4fd;
@@ -105,7 +117,20 @@ p {
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
-    /* text-align: center; */
+    text-align: center;
+    text-transform: capitalize;
+}
+.team_item h3 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+.team_item p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 /* portf */
@@ -114,16 +139,44 @@ p {
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
-    /* text-align: center; */
+    text-align: center;
+    text-transform: capitalize;
+}
+.portf_item h3 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+.portf_item p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 /* footer */
-.foot {
+footer {
     background: #2e2f42;
+    color: #f4f4fd;
 }
 .foot .logo_link {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+    text-decoration: none;
+}
+.logo_foot {
     color: #f4f4fd;
 }
 .foot p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
     color: #f4f4fd;
 }
