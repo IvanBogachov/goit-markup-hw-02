@@ -10,7 +10,16 @@ body {
 ul {
     list-style-type: none;
 }
-/* h3 {
+h2 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
+    color: #2e2f42;
+}
+h3 {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -21,7 +30,7 @@ p {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-} */
+}
 /* header */
 .logo_accent {
     color: #2e2f42;
@@ -94,7 +103,14 @@ p {
 
 /* benef */
 .benef_title {
-    display: none;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    /* text-align: center; */
+    text-transform: capitalize;
+    color: #2e2f42;
+    /* display: none; */
 }
 .benef_item h3 {
     font-weight: 500;
@@ -111,6 +127,7 @@ p {
 /* team */
 .team {
     background: #f4f4fd;
+    background-color: #FFFFF;
 }
 .team-title {
     font-weight: 700;
@@ -119,6 +136,7 @@ p {
     letter-spacing: 0.02em;
     text-align: center;
     text-transform: capitalize;
+    color: #2e2f42;
 }
 .team_item h3 {
     font-weight: 500;
@@ -141,6 +159,7 @@ p {
     letter-spacing: 0.02em;
     text-align: center;
     text-transform: capitalize;
+    color: #2e2f42;
 }
 .portf_item h3 {
     font-weight: 500;
@@ -156,11 +175,11 @@ p {
 }
 
 /* footer */
-footer {
+.foot {
     background: #2e2f42;
     color: #f4f4fd;
 }
-.foot .logo_link {
+.foot .logof_link {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
