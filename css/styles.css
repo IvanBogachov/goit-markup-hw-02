@@ -10,7 +10,7 @@ body {
 ul {
     list-style-type: none;
 }
-h2 {
+/* h2 {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
@@ -30,7 +30,7 @@ p {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-}
+} */
 /* header */
 .logo_accent {
     color: #2e2f42;
@@ -48,7 +48,9 @@ p {
 .nav_link {
     font-weight: 500;
     font-size: 16px;
+    letter-spacing: 0.03em;
     text-decoration: none;
+    color: #2e2f42;
 }
 .nav_link:hover,
 .nav_link:focus {
@@ -66,6 +68,7 @@ p {
 .adres_link {
     font-weight: 400;
     font-size: 16px;
+    letter-spacing: 0.02em;
     color: #434455;
     text-decoration: none;
 }
@@ -121,6 +124,7 @@ p {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    color: #2e2f42;
 }
 .benef_item p {
     font-weight: 400;
@@ -133,7 +137,7 @@ p {
     background: #f4f4fd;
 }
 .team_item{
-    background-color: #FFFFF;
+    background-color: #FFFFFF;
 }
 .team-title {
     font-weight: 700;
@@ -149,12 +153,14 @@ p {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    color: #2e2f42;
 }
 .team_item p {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    color: #434455;
 }
 
 /* portf */
@@ -172,12 +178,14 @@ p {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    color: #2e2f42;
 }
 .portf_item p {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    color: #434455;
 }
 
 /* footer */
